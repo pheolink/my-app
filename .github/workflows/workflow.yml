@@ -26,7 +26,7 @@ jobs:
       - name: Checking the info
         run: neofetch
 
-      - uses: pheolink/heroku-deploy@v3.8.8
+      - uses: akhileshns/heroku-deploy@v3.8.8
         with:
           heroku_email: pheolinks@gmail.com
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
